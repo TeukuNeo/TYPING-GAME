@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN PAGEt</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url(./wallpaperflare.com_wallpaper.jpg);
+        }
+
+        header {
+            padding: 20px; 
+            display: flex; 
+            align-items: center;
+            justify-content: space-between; 
+            height: 150px; 
+          }
+
+        .game-btn .content{
+            display: flex;
+            margin: 15px -67px;
+            padding: 10px 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin : 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .main-btn button:hover{
+          background-color: yellow;
+          color: black;
+        }
+
+        .death-btn button:hover{
+            background-color: red;
+          }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="game-btn">
+        <div class="content">
+            <a class="main-btn" href="./index.html">
+                <button>MAIN MODE</button>
+            </a>
+            <a class="death-btn" href="./instant.html"> 
+                <button>DEATH MODE</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
